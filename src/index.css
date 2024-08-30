@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color:white;
+  /* margin-top: 30px; */
+  /* padding-top: 30px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  overflow-x: hidden;
+}
+
+.heading{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 30px;
+  padding: 12px 60px;
+}
+
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image{
+  height: 300px;
+  width: 340px;
+  /* margin-top: 10px; */
+}
+
+.all-cards{
+  width: 1125px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:first baseline;
+  gap:15px;
+}
+
+.single-card{
+  /* height: 540px; */
+  width: 360px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px gray;
+  border-radius: 8px;
+}
+
+.details{
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.not-interested-btn{
+  height: 28px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 60px;
+  background-color: rgb(241, 168, 192);
+  border:2px solid palevioletred;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price{
+  color: rgb(6, 182, 6);
+  font-size: 18px;
+  font-weight:bolder;
+}
+
+.name{
+  font-size: 22px;
+  font-weight:bolder;
+}
+
+/* .info{
+    max-height: 100px;
+} */
+
+.read-more{
+  color: rgb(78, 78, 244);
+  cursor: pointer;
+}
+
+.refresh-div{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.no-left{
+  font-size: 25px;
+}
+
+.refresh-btn{
+  font-size: 18px;
+  padding: 6px 18px;
+  background-color:bisque;
+  border: 2px solid rgb(241, 156, 50);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.undo-btn{
+  display: block;
+  scale: 0;
+  position: fixed;
+  bottom: 30px;
+  padding: 6px 35px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: gray;
+  border: none;
+  z-index: 5;
+  cursor: pointer;
+  /* border: 1px solid rgb(59, 59, 59); */
+  transition: all 0.5s;
+  transform-origin: bottom;
+}
+
+.undo-btn-active{
+  /* display: block; */
+  scale: 1;
+}
