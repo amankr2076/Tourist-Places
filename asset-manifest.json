@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tourist-Places/static/css/main.5392fb1d.css",
+    "main.js": "/Tourist-Places/static/js/main.e6c85f37.js",
+    "index.html": "/Tourist-Places/index.html",
+    "main.5392fb1d.css.map": "/Tourist-Places/static/css/main.5392fb1d.css.map",
+    "main.e6c85f37.js.map": "/Tourist-Places/static/js/main.e6c85f37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5392fb1d.css",
+    "static/js/main.e6c85f37.js"
+  ]
+}
